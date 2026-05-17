@@ -40,6 +40,7 @@ docs/
 - [Architecture Diff #001](docs/diffs/architecture-diff-001.md)
 - [Week 1 operating plan](docs/validation/week-1-operating-plan.md)
 - [Custom RAG review offer](docs/offers/custom-rag-review-offer.md)
+- [GitHub and Notion workflow](docs/reference/github-notion-workflow.md)
 
 ## Trust Contract
 
@@ -58,4 +59,3 @@ Every Baseplate recommendation should include:
 Private validation phase.
 
 Do not treat these docs as final public claims yet. The next milestone is to share one RAG-001 artifact with 5 to 10 builders and record whether the decision saves time, prevents a bad choice, or creates demand for a custom review.
-
