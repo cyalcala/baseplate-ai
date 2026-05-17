@@ -2,6 +2,7 @@
 baseplate-memory/
 novabyte-ugc/
 graphify-out/
+private-raw-chat-backup/
 
 # OS/editor noise
 .DS_Store
@@ -18,4 +19,3 @@ desktop.ini
 tmp/
 temp/
 *.log
-
