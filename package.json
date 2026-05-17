@@ -1,0 +1,15 @@
+{
+  "name": "baseplate-ai",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "rag:index": "node labs/rag-lab/index.mjs",
+    "rag:index:dry": "node labs/rag-lab/index.mjs --dry-run",
+    "rag:ask": "node labs/rag-lab/ask.mjs",
+    "rag:eval": "node labs/rag-lab/eval.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

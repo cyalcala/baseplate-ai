@@ -1,0 +1,127 @@
+[
+  {
+    "id": "rag-001-default",
+    "question": "What is Baseplate's current RAG-001 default recommendation?",
+    "expected_sources": ["docs/decisions/RAG-001-default-retrieval-architecture.md"]
+  },
+  {
+    "id": "vector-only",
+    "question": "When should vector-only RAG be enough according to Baseplate?",
+    "expected_sources": ["docs/decisions/RAG-001-default-retrieval-architecture.md"]
+  },
+  {
+    "id": "hybrid-caveat",
+    "question": "What is the caveat about hybrid retrieval?",
+    "expected_sources": ["docs/decisions/RAG-001-default-retrieval-architecture.md"]
+  },
+  {
+    "id": "graphrag-avoid",
+    "question": "When should GraphRAG be avoided?",
+    "expected_sources": ["docs/decisions/RAG-001-default-retrieval-architecture.md"]
+  },
+  {
+    "id": "agentic-rag",
+    "question": "When does Baseplate say agentic RAG is appropriate?",
+    "expected_sources": ["docs/decisions/RAG-001-default-retrieval-architecture.md"]
+  },
+  {
+    "id": "eval-checklist",
+    "question": "What should the RAG eval checklist measure?",
+    "expected_sources": ["docs/decisions/RAG-001-default-retrieval-architecture.md"]
+  },
+  {
+    "id": "trust-contract",
+    "question": "What is the Baseplate trust contract?",
+    "expected_sources": ["README.md", "AGENTS.md"]
+  },
+  {
+    "id": "not-build-yet",
+    "question": "What should Baseplate not build yet?",
+    "expected_sources": ["AGENTS.md", "docs/reference/master-plan.md"]
+  },
+  {
+    "id": "github-notion",
+    "question": "What is the difference between GitHub and Notion in this project?",
+    "expected_sources": ["docs/reference/github-notion-workflow.md"]
+  },
+  {
+    "id": "next-milestone",
+    "question": "What is Baseplate's next milestone?",
+    "expected_sources": ["NEXT_SESSION_BRIDGE.md", "docs/reference/master-plan.md"]
+  },
+  {
+    "id": "paid-offer",
+    "question": "What does the USD 99 Baseplate RAG Architecture Review include?",
+    "expected_sources": ["docs/offers/custom-rag-review-offer.md"]
+  },
+  {
+    "id": "intake-questions",
+    "question": "What intake questions should be asked before a RAG architecture review?",
+    "expected_sources": ["docs/offers/rag-review-intake-form.md"]
+  },
+  {
+    "id": "architecture-diff",
+    "question": "What is the core claim of Architecture Diff 001?",
+    "expected_sources": ["docs/diffs/architecture-diff-001.md"]
+  },
+  {
+    "id": "money-path",
+    "question": "What is the near-term money path for Baseplate?",
+    "expected_sources": ["docs/reference/master-plan.md"]
+  },
+  {
+    "id": "audience",
+    "question": "Who is the first audience for Baseplate?",
+    "expected_sources": ["docs/reference/master-plan.md"]
+  },
+  {
+    "id": "failure-signals",
+    "question": "What are failure signals for the custom RAG review offer?",
+    "expected_sources": ["docs/offers/custom-rag-review-offer.md"]
+  },
+  {
+    "id": "source-queue",
+    "question": "Which source categories are currently queued for RAG-001 evidence?",
+    "expected_sources": ["docs/evidence/source-queue.md"]
+  },
+  {
+    "id": "evidence-schema",
+    "question": "What fields are in the Baseplate evidence schema?",
+    "expected_sources": ["docs/evidence/evidence-schema.md"]
+  },
+  {
+    "id": "reviewed-sources",
+    "question": "Which reviewed sources support the hybrid retrieval default?",
+    "expected_sources": ["docs/evidence/reviewed-source-notes-rag-001.md"]
+  },
+  {
+    "id": "outreach",
+    "question": "What question should we ask builders when sharing RAG-001?",
+    "expected_sources": ["docs/validation/week-1-operating-plan.md", "docs/validation/builder-feedback-outreach.md"]
+  },
+  {
+    "id": "exact-term",
+    "question": "Why can exact terms, acronyms, product names, or policy names matter in production RAG?",
+    "expected_sources": ["docs/diffs/architecture-diff-001.md", "docs/decisions/RAG-001-default-retrieval-architecture.md"]
+  },
+  {
+    "id": "simplest-architecture",
+    "question": "What does Baseplate mean by keeping the simplest architecture that passes the eval?",
+    "expected_sources": ["README.md", "docs/decisions/RAG-001-default-retrieval-architecture.md"]
+  },
+  {
+    "id": "repo-map",
+    "question": "Where should I look in the repo for decisions, diffs, evidence, offers, and validation docs?",
+    "expected_sources": ["README.md", "docs/README.md"]
+  },
+  {
+    "id": "private-memory",
+    "question": "Should raw private conversation backups be indexed or committed to GitHub?",
+    "expected_sources": ["AGENTS.md", "docs/reference/github-notion-workflow.md"]
+  },
+  {
+    "id": "weak-question",
+    "question": "What is the no-recommendation rule for Baseplate?",
+    "expected_sources": ["AGENTS.md"]
+  }
+]

@@ -14,8 +14,10 @@ desktop.ini
 .env.*
 *.key
 *.pem
+labs/rag-lab/.rag-state.json
 
 # Generated/temp files
 tmp/
 temp/
 *.log
+labs/rag-lab/eval-results-*.json

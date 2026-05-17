@@ -21,6 +21,7 @@ Already created:
 - public repo structure
 - RAG-001 decision page
 - Architecture Diff #001 draft
+- Baseplate RAG Lab v1 scaffold
 - evidence schema and source queue
 - reviewed source notes
 - custom RAG review offer
@@ -37,11 +38,11 @@ Move from strategy to public proof.
 
 Recommended next task:
 
-1. Final polish pass on `docs/decisions/RAG-001-default-retrieval-architecture.md`.
-2. Final polish pass on `docs/diffs/architecture-diff-001.md`.
-3. Choose one artifact to share first.
-4. Use `docs/validation/builder-feedback-outreach.md` to message 5 builders.
-5. Record replies in `docs/validation/validation-tracker.csv` or Notion.
+1. Run `npm run rag:index` with `OPENAI_API_KEY` set.
+2. Run `npm run rag:eval -- --limit 5`.
+3. Record failure cases in `labs/rag-lab/lab-notes.md`.
+4. Update `RAG-001` from the lab observations.
+5. Final-polish and share one artifact with 5 builders.
 
 ## Important Constraints
 
@@ -56,6 +57,8 @@ Recommended next task:
 - `AGENTS.md`
 - `README.md`
 - `docs/reference/master-plan.md`
+- `labs/rag-lab/README.md`
+- `labs/rag-lab/lab-notes.md`
 - `docs/decisions/RAG-001-default-retrieval-architecture.md`
 - `docs/diffs/architecture-diff-001.md`
 - `docs/offers/custom-rag-review-offer.md`
@@ -65,4 +68,4 @@ Recommended next task:
 
 ## Best Prompt For The Next Session
 
-Continue Baseplate from `NEXT_SESSION_BRIDGE.md` and `AGENTS.md`. Focus on turning RAG-001 into public proof. First inspect the RAG-001 decision page, Architecture Diff #001, and Week 1 operating plan. Then recommend and make the smallest changes needed before I share one artifact with builders.
+Continue Baseplate from `NEXT_SESSION_BRIDGE.md` and `AGENTS.md`. Focus on grounding RAG-001 through the Baseplate RAG Lab. First inspect `labs/rag-lab/README.md`, `labs/rag-lab/lab-notes.md`, and `docs/decisions/RAG-001-default-retrieval-architecture.md`. Then help run or interpret the lab before public sharing.

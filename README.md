@@ -32,6 +32,8 @@ docs/
   playbook/    RAG Decision Playbook drafts
   reference/   Comparison tables and reusable reference material
   validation/  Outreach, weekly operating plan, and validation tracking
+labs/
+  rag-lab/     Managed RAG grounding lab over Baseplate docs
 ```
 
 ## Start Here
@@ -43,6 +45,7 @@ docs/
 - [Custom RAG review offer](docs/offers/custom-rag-review-offer.md)
 - [GitHub and Notion workflow](docs/reference/github-notion-workflow.md)
 - [Next session bridge](NEXT_SESSION_BRIDGE.md)
+- [Baseplate RAG Lab](labs/rag-lab/README.md)
 
 ## Trust Contract
 

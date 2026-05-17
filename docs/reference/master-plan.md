@@ -37,6 +37,7 @@ Start with decision artifacts, not a platform.
 
 Initial public artifacts:
 
+- Baseplate RAG Lab notes
 - RAG-001 decision page
 - Architecture Diff #001
 - retrieval architecture comparison
@@ -72,6 +73,7 @@ Completed:
 
 - repo structure
 - GitHub/Notion source-of-truth workflow
+- Baseplate RAG Lab v1 scaffold
 - RAG-001 draft decision
 - Architecture Diff #001 draft
 - evidence schema
@@ -86,6 +88,7 @@ Completed:
 
 Not completed:
 
+- first RAG lab run
 - public sharing
 - builder conversations
 - paid sale
@@ -103,6 +106,9 @@ Goal: prove one artifact is useful to real builders.
 
 Tasks:
 
+- run the Baseplate RAG Lab over public docs
+- record failures and surprises
+- update RAG-001 from lived lab observations
 - final-polish RAG-001
 - final-polish Architecture Diff #001
 - share one artifact publicly or directly with builders

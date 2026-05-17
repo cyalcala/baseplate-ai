@@ -16,6 +16,7 @@ Baseplate recommendations must be practical, evidence-backed, caveated, and expl
 
 Work on `RAG-001` first:
 
+- Baseplate RAG Lab v1
 - default retrieval architecture for production RAG
 - evidence bank and source notes
 - Architecture Diff #001
@@ -102,6 +103,8 @@ Do not commit:
 
 Stage 1: public proof
 
+- build a small managed RAG lab over Baseplate docs
+- document retrieval failures and surprises
 - publish one useful RAG decision artifact
 - get builder feedback
 - learn which decision actually matters
@@ -171,6 +174,9 @@ Do not build SaaS, CLI, dashboards, or broad automation until the decision layer
 
 Turn `RAG-001` from a strong draft into public proof:
 
+- run the managed RAG lab
+- record what breaks
+- update the decision page from lab observations
 - final review of decision page
 - final review of Architecture Diff #001
 - share with 5 to 10 builders
