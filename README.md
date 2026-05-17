@@ -36,11 +36,13 @@ docs/
 
 ## Start Here
 
+- [Master plan](docs/reference/master-plan.md)
 - [RAG-001 default retrieval architecture](docs/decisions/RAG-001-default-retrieval-architecture.md)
 - [Architecture Diff #001](docs/diffs/architecture-diff-001.md)
 - [Week 1 operating plan](docs/validation/week-1-operating-plan.md)
 - [Custom RAG review offer](docs/offers/custom-rag-review-offer.md)
 - [GitHub and Notion workflow](docs/reference/github-notion-workflow.md)
+- [Next session bridge](NEXT_SESSION_BRIDGE.md)
 
 ## Trust Contract
 
