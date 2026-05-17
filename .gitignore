@@ -1,0 +1,21 @@
+# Local/private operating memory
+baseplate-memory/
+novabyte-ugc/
+graphify-out/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local env/secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Generated/temp files
+tmp/
+temp/
+*.log
+
